@@ -125,7 +125,7 @@ function getData(){
   pharmacyCheck();
   medicationCheck();
   getNotes();
-  window.open("Transfer2.html", "_blank")
+  window.open("Transfer2.min.html", "_blank")
 }
 
 //Test function to alert stuff as needed, for debugging only
