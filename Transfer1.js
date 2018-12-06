@@ -26,7 +26,6 @@ function hideOtherFields(){
   $('#pharmacist-input1').hide();
   $('#pharmacist-input2').hide();
   $('#otherMed2').hide();
-  $('#sender2').hide();
   $('#otherPharmName').hide();
   $('#pharmFax').hide();
 }
