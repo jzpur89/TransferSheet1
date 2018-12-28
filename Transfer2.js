@@ -59,6 +59,12 @@ function detectPharmacy(pharmacy){
     var pharmacyPhone = "831-424-8053"
     var pharmacyFax = "831-424-4707"
   }
+  if(pharmacy == "COST"){
+    var pharmacyName = "COSTCO PHARMACY"
+    var pharmacyAddress = "1339 N DAVIS RD"
+    var pharmacyPhone = "831-751-0414"
+    var pharmacyFax = "831-751-0435"
+  }
   if(pharmacy == "CVS1"){
     var pharmacyName = "CVS PHARMACY"
     var pharmacyAddress = "110 E LAUREL DR"

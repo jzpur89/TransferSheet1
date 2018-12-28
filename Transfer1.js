@@ -124,7 +124,7 @@ function getData(){
   pharmacyCheck();
   medicationCheck();
   getNotes();
-  window.open("Transfer2.min.html", "_blank")
+  window.open("Transfer2.html", "_blank")
 }
 
 //Test function to alert stuff as needed, for debugging only
@@ -184,8 +184,8 @@ $('#sender').change(function(){
     $('#sender3').val('ISELA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'JACQUELINE'){
-    $('#sender3').val('JACQUELINE');
+  } else if($('#sender').val() == 'JUAN'){
+    $('#sender3').val('JUAN');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'MESELINA'){
@@ -216,6 +216,11 @@ $('#pharmacySelect').change(function(){
     $('#pharmFax').hide();
   } else if($('#pharmacySelect').val() == 'ACP'){
     $('#otherPharmName2').val('ALLCARE');
+    $('#pharmFax2').val('8314240197');
+    $('#otherPharmName').hide();
+    $('#pharmFax').hide();
+  } else if($('#pharmacySelect').val() == 'COST'){
+    $('#otherPharmName2').val('COSTCO');
     $('#pharmFax2').val('8314240197');
     $('#otherPharmName').hide();
     $('#pharmFax').hide();
