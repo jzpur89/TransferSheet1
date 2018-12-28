@@ -1,1 +1,1 @@
-<?php include_once("Transfer1.min.html"); ?>
+<?php include_once("Transfer1.html"); ?>
